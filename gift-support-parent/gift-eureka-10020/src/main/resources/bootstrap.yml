@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://127.0.0.1:10010
+      name: application-eureka
+      label: master
+      profile: ${spring.profiles.active}

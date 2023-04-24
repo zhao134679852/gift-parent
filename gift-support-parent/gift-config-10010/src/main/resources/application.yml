@@ -1,0 +1,13 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: gift-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/hungry_liu/gift-config.git
+          username: 18104508041
+          password: wasdliu341
+          search-paths: src/main/resources
